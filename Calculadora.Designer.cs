@@ -101,6 +101,7 @@
             btnMultipilicar.TabIndex = 6;
             btnMultipilicar.Text = "Multiplicar";
             btnMultipilicar.UseVisualStyleBackColor = true;
+            btnMultipilicar.Click += btnMultipilicar_Click;
             // 
             // btnDividir
             // 
