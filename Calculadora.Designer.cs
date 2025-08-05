@@ -81,6 +81,7 @@
             btnSomar.TabIndex = 4;
             btnSomar.Text = "Somar";
             btnSomar.UseVisualStyleBackColor = true;
+            btnSomar.Click += btnSomar_Click;
             // 
             // btnSubtrair
             // 
@@ -112,10 +113,10 @@
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Font = new Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblResultado.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblResultado.Location = new Point(304, 32);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(27, 32);
+            lblResultado.Size = new Size(28, 32);
             lblResultado.TabIndex = 8;
             lblResultado.Text = "0";
             // 
