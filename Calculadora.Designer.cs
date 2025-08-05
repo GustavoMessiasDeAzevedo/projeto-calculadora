@@ -91,6 +91,7 @@
             btnSubtrair.TabIndex = 5;
             btnSubtrair.Text = "Subtrair";
             btnSubtrair.UseVisualStyleBackColor = true;
+            btnSubtrair.Click += btnSubtrair_Click;
             // 
             // btnMultipilicar
             // 
