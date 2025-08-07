@@ -139,6 +139,7 @@
             Controls.Add(lblNumero1);
             Name = "Calculadora";
             Text = "Calculadora";
+            KeyDown += Calculadora_KeyDown;
             ResumeLayout(false);
             PerformLayout();
         }
